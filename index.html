@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioma de Araucárias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('1620px-Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_32.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        #sidebar {
+            width: 20%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-right: 1px solid #e0e0e0;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4285f4;
+            display: block;
+            padding: 8px 0;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #1565c0;
+        }
+
+        #content {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        #content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+
+        #news {
+            width: 20%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            position: sticky;
+            top: 20px;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        #news img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            width: 100%;
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #757575;
+        }
+
+        .section-container {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #4285f4;
+            text-align: center;
+        }
+
+        h2 {
+            cursor: pointer;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            transition: color 0.3s;
+        }
+
+        h2:hover {
+            color: #1565c0;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .content.show {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="sidebar">
+            <h2>Sumário</h2>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#distribuicao">Distribuição</a></li>
+                    <li><a href="#ecologia">> Ecologia</a></li>
+                    <li><a href="#importancia-economica-e-cultural">Importância econômica e cultural</a></li>
+                    <li><a href="#conservacao">Conservação</a></li>
+                    <li><a href="#protecao-legal">Proteção legal</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="content">
+
+            <header>
+                <h1>Bioma de Araucárias</h1>
+                <img src="araucarias-wallpaper.jpeg" alt="Araucária" />
+            </header>
+
+            <main>
+                <section id="inicio" class="section-container">
+                    <h2>Início</h2>
+                    <div>
+
+                        <p>Imagine-se no fascinante bioma das Araucárias, um lugar cheio de vida e diversidade, onde uma
+                            incrível variedade de plantas e animais se adaptou às condições únicas desta região. As
+                            imponentes Araucárias, árvores que definem e dão caráter a esse ecossistema, dominam a
+                            paisagem de forma majestosa.</p>
+
+                        <p>Esse é o lar de um clima subtropical, com chuvas distribuídas ao longo do ano, proporcionando
+                            um ambiente perfeito para o crescimento dessas árvores grandiosas. Nos próximos parágrafos,
+                            mergulharemos em alguns aspectos fundamentais desse bioma incrível, descobrindo seus
+                            segredos e maravilhas.</p>
+
+                    </div>
+                </section>
+
+
+                <section id="distribuicao" class="section-container">
+                    <h2>Distribuição</h2>
+                    <div>
+                        <img src="IMG1.jpg" alt="Araucária" />
+
+                        <p>Exploraremos agora a notável distribuição do bioma das Araucárias, que se estende por vastas
+                            áreas, especialmente nos estados da acolhedora região sul do Brasil. Essa extensão oferece
+                            um habitat único para diversas espécies, revelando padrões fascinantes ao analisarmos sua
+                            distribuição espacial e os desafios associados à sua conservação.</p>
+
+                        <p>Nossa jornada nos levará a examinar de perto as regiões onde as imponentes Araucárias
+                            florescem, destacando a beleza singular encontrada nos estados do sul do Brasil.
+                            Acompanharemos os esforços dedicados à preservação dessas áreas cruciais para a
+                            biodiversidade, desvendando os segredos e maravilhas desse bioma extraordinário que
+                            enriquece a região sul do nosso país.</p>
+                    </div>
+                </section>
+
+                <section id="ecologia" class="section-container">
+                    <h2>Ecologia</h2>
+                    <div>
+                        <img src="IMG5.jpg" alt="Araucária" />
+
+                        <p>A ecologia do bioma de Araucárias revela-se como um intricado e fascinante ballet da
+                            natureza. A interação harmoniosa entre plantas, animais e o ambiente circundante desempenha
+                            um papel crucial na manutenção do equilíbrio ecológico. Nossa jornada nos levará a descobrir
+                            os intricados laços que unem as diferentes espécies, revelando como coexistem e dependem
+                            umas das outras para perpetuar a riqueza desse ecossistema.</p>
+
+                        <p>Além disso, adentraremos as profundezas desse bioma extraordinário para explorar as
+                            adaptações únicas que muitas espécies desenvolveram ao longo do tempo. Cada ajuste, uma
+                            resposta sagaz à complexidade deste ambiente específico, nos mostrará como a natureza é
+                            mestra na arte da sobrevivência e prosperidade.</p>
+                    </div>
+                </section>
+
+                <section id="importancia-economica-e-cultural" class="section-container">
+                    <h2>Importância econômica e cultural</h2>
+                    <div>
+                        <img src="IMG2.jpeg" alt="Araucária" />
+
+                        <p>O bioma de Araucárias não se destaca apenas por suas características biológicas, mas também
+                            pela sua importância econômica e cultural que transcende suas fronteiras. Vamos analisar
+                            como esse ecossistema influencia de maneira significativa as comunidades locais,
+                            proporcionando recursos essenciais e desempenhando um papel fundamental nas tradições
+                            culturais enraizadas na região.</p>
+
+                        <p>Nossa exploração não se limitará a isso; vamos também investigar as oportunidades existentes
+                            para harmonizar o desenvolvimento econômico com a conservação responsável deste bioma
+                            precioso. Ao buscar um equilíbrio entre o progresso e a preservação, visamos garantir um
+                            futuro sustentável para as gerações vindouras.</p>
+                    </div>
+                </section>
+
+                <section id="conservacao" class="section-container">
+                    <h2>Conservação</h2>
+                    <div>
+                        <img src="IMG3.jpg" alt="Araucária" />
+
+                        <p>Preservar o pinheiro brasileiro, ou Araucária, é essencial, pois está ameaçado de extinção.
+                            Além de manter a diversidade ecológica, a Araucária impacta positivamente o ciclo da água, é
+                            culturalmente significativa e contribui para evitar a erosão do solo. A conservação é
+                            crucial para manter seus genes importantes em meio às mudanças climáticas. Urgem ações
+                            imediatas, como reflorestamento e proteção, para assegurar a sobrevivência dessa espécie,
+                            que é não só parte vital do ecossistema, mas também parte importante da cultura brasileira.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="protecao-legal" class="section-container">
+                    <h2>Proteção legal</h2>
+                    <div>
+                        <img src="IMG4.jpeg" alt="Araucária" />
+
+                        <p>A proteção legal do bioma de Araucárias remonta à Carta Régia de 13 de março de 1797, que
+                            reservou os pinheiros exclusivamente para uso da Coroa portuguesa. Entretanto, a exploração
+                            descontrolada ganhou força, atingindo seu ápice no século XX.</p>
+
+                        <p>Diante da iminente ameaça de exaustão da espécie, surgiram novas leis. A Portaria Normativa
+                            DC n° 20, de 27 de setembro de 1976, do Instituto Brasileiro de Desenvolvimento Florestal,
+                            estabeleceu medidas para proteger as sementes, regulamentando a colheita e comercialização
+                            do pinhão, e proibindo o abate de árvores com pinhas na época da queda de sementes.</p>
+
+                        <p>No entanto, até meados da década de 1980, não havia restrições significativas à exploração
+                            indiscriminada das florestas de araucária. Planos de Exploração Florestal estabeleceram
+                            limites generosos, permitindo o corte de praticamente todos os indivíduos com diâmetro de
+                            tronco acima de 40 cm.</p>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>© 2023 CRT - Conectando Recursos Tecnológicos</p>
+            </footer>
+
+        </div>
+
+
+        <div id="news">
+            <h2>Notícias sobre Araucárias</h2>
+            <img src="desmatamento-araucaria.jpeg" alt="Araucária" />
+
+            <p class="highlight"><strong>Araucária pode ser extinta nas próximas décadas por conta de
+                    desmatamento</strong></p>
+            <p>Exploradas pela indústria madeireira desde o século 19, florestas do pinheiro nativo da região sul do
+                Brasil ocupam apenas 3% de sua área original.</p>
+            <img src="gralha-azul-galho.webp" alt="Araucária" />
+
+            <p class="highlight"><strong>Fauna da Mata de Araucárias</strong></p>
+            <p>é possível encontrar a onça-pintada, a jaguatirica, o macaco-prego, o guariba, o mico-leão-dourado, o
+                tamanduá e várias espécies de saguis. Tucanos, beija-flores, saíras e jacus são as aves de maior
+                destaque nessa floresta.</p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
